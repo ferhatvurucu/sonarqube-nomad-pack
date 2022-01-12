@@ -1,6 +1,6 @@
 # sonarqube-nomad-pack
 
-This pack contains a service job that runs Sonarqube in Nomad. It currently supports being run by the [Docker](https://www.nomadproject.io/docs/drivers/docker) driver.
+Nomad Pack is a templating and packaging tool used with HashiCorp Nomad. This pack contains a service job that runs Sonarqube in Nomad. It currently supports being run by the [Docker](https://www.nomadproject.io/docs/drivers/docker) driver.
 
 ## Requirements
 
