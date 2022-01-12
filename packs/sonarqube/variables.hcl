@@ -50,7 +50,7 @@ variable "image_tag" {
 }
 
 variable "task_resources" {
-  description = "Resources used by jenkins task."
+  description = "Resources used by sonarqube task."
   type = object({
     cpu    = number
     memory = number
@@ -80,12 +80,12 @@ variable "consul_service_tags" {
 }
 
 variable "volume_name" {
-  description = "The name of the volume you want Jenkins to use."
+  description = "The name of the volume you want sonarqube to use."
   type        = string
 }
 
 variable "volume_type" {
-  description = "The type of the volume you want Jenkins to use."
+  description = "The type of the volume you want sonarqube to use."
   type        = string
   default     = "host"
 }
