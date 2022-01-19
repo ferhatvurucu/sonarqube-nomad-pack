@@ -26,6 +26,14 @@ client {
 }
 ```
 
+- If you're running on Linux, you must ensure to set these values by running the following commands as root:
+```
+sysctl -w vm.max_map_count=524288
+sysctl -w fs.file-max=131072
+ulimit -n 131072
+ulimit -u 8192
+```
+
 ## Variables
 
 - `job_name` (string) - The name to use as the job name which overrides using the pack name.
