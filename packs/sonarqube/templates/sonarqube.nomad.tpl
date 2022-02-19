@@ -57,8 +57,8 @@ job [[ template "job_name" . ]] {
     restart {
       attempts = 2
       interval = "5m"
-      delay = "15s"
-      mode = "fail"
+      delay    = "15s"
+      mode     = "fail"
     }
 
     task [[ template "job_name" . ]] {

@@ -26,7 +26,7 @@ client {
 }
 ```
 
-- If you're running on Linux, you must ensure to set these values by running the following commands as root:
+- If you're running on Linux, you must ensure that the user running SonarQube can open at least 131072 file descriptors and at least 8192 threads. You can set these values dynamically by running the following commands as root:
 ```
 sysctl -w vm.max_map_count=524288
 sysctl -w fs.file-max=131072
