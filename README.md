@@ -85,3 +85,4 @@ nomad-pack run sonarqube --registry=my_packs
 ## References
 
 - [Nomad Pack](https://learn.hashicorp.com/collections/nomad/nomad-pack)
+- [Nomad Pack Community Registry](https://github.com/hashicorp/nomad-pack-community-registry/tree/main/packs/sonarqube)
